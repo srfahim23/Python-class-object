@@ -64,3 +64,22 @@ name and age:
 
 Note: The __init__() function is called automatically every time the class is 
 being used to create a new object
+
+# The __str__() Function
+The __str__() Function controls what should be returned when the clas object 
+is represented as a sring.
+
+If the __str__() function is not set, the string representation of the object is 
+returned:
+
+Example:
+
+The string representation of an object WITHOUT the __str__() function:
+
+    class Person:
+        def __init_(self, name, age):
+            self.name = name
+            self.age = age
+    p1 = Person("Fahim", 20)        
+
+    print(p1)
