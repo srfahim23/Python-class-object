@@ -12,6 +12,7 @@ A Class is like an object constructor, or a "blueprint" for creating objects.
 To create a class, use the keyword class:
 
 Example
+
 Create  a class named MyClass, with a property named x:
 
     class MyClass:
@@ -24,6 +25,7 @@ Create  a class named MyClass, with a property named x:
 Now we can use the class named MyClass to create objects:
 
 Example
+
 Create an object named p1, and print the value of x:
 
     clss MyClass:
@@ -46,6 +48,7 @@ Use the __init__() function to assign values to object properties, or other
 operations that are necessary to do when the object in being created:
 
 Example
+
 Creat a Class named Person, use the __init__() function to assign values for 
 name and age:
 
